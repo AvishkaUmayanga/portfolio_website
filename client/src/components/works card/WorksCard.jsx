@@ -8,7 +8,7 @@ function WorksCard() {
   return (
     <>
     {projectData.map((data, index)=>(
-    <motion.div key={index} variants={oddEvenBasedAnim} initial='initial' whileInView='animate' custom={index} viewport={{once:true}}  className="relative flex items-center justify-center p-1 overflow-hidden text-white rounded-md box xl:w-72 max-xl:w-60">
+    <motion.div key={index} variants={oddEvenBasedAnim} initial='initial' whileInView='animate' custom={index}   className="relative flex items-center justify-center p-1 overflow-hidden text-white rounded-md box xl:w-72 max-xl:w-60">
       <div className="absolute w-1/3 h-[200%]  from-[#00ccff] to-[#d599f9]  animate-spin-slow  rounded-md bg-gradient-to-t"></div>
       <div className="absolute bg-[#edf2f8] inset-1 rounded-md "></div>
       <div className="relative z-10 w-full h-full rounded-md group">
