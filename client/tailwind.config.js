@@ -8,7 +8,7 @@ export default {
   ],
   theme: {
     screens: {
-      'xsm' : '390px',
+      'xsm' : '394px',
       'xlg' : '1050px',
       ...defaultTheme.screens,
     },
