@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery} from '@reduxjs/toolkit/query/react'
 const userAPI = createApi({
     reducerPath: 'user-api-reducer',
     tagTypes: ['data'],
-    baseQuery: fetchBaseQuery({baseUrl:'http://localhost:4000'}),
+    baseQuery: fetchBaseQuery({baseUrl:'https://avishka-portfoio.vercel.app/'}),
     endpoints: builder =>({
         getProfileImage: builder.query({
             query:() =>({
